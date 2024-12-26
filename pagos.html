@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tienda de Rulemanes</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+</head>
+<body>
+    <header>
+        <h1> Rulemanes Bearing</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href=index.html#productos>Productos</a></li>
+                <li><a href="index.html#comentarios">Comentarios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Resumen de tu Compra</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rodamiento de Levas ProMax</td>
+                    <td>Alta resistencia y durabilidad</td>
+                    <td>$18000</td>
+                </tr>
+                <tr>
+                    <td>Rodamiento de Levas ProMax</td>
+                    <td>Ideal para maquinaria pesada</td>
+                    <td>$22500</td>
+                </tr>
+                <tr>
+                    <td>Rodamiento Oscilante FlexPower</td>
+                    <td>Máxima eficiencia energética</td>
+                    <td>$30000</td>
+                </tr>
+                <tr>
+                    <td>Rodamiento de Bolas SuperGlide</td>
+                    <td>Desempeño suave y silencioso</td>
+                    <td>$25000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"><strong>Total a Pagar:</strong></td>
+                    <td><strong>$125500</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2>Opciones de Pago</h2>
+        <form>
+            <div class="payment-option">
+                <input type="radio" name="pago" value="paypal" id="paypal">
+                <label for="paypal">PayPal</label>
+            </div>
+            <div class="payment-option">
+                <input type="radio" name="pago" value="tarjeta" id="tarjeta">
+                <label for="tarjeta">Tarjeta de Crédito</label>
+            </div>
+            <div class="payment-option">
+                <input type="radio" name="pago" value="transferencia" id="transferencia">
+                <label for="transferencia">Transferencia Bancaria</label>
+            </div>
+        </form>
+        <button type="submit">Finalizar Compra</button>
+    </main>
+
+    <footer>
+        <p>Seguinos en nuestras redes</p>
+        <div class="iconos-sociales">
+            <a href="https://www.instagram.com" target="_blank" class="icono"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/xxxxxxxxxx" target="_blank" class="icono"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com" target="_blank" class="icono"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

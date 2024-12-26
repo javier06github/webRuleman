@@ -30,70 +30,23 @@
 
         <section id="productos">
             <div class="productos-container">
-                <div class="productos">
-                    <div class="card">
-                        <img src="img/1.jpg" alt="Rodamiento A">
-                        <h3>Rodamiento de Levas ProMax</h3>
-                        <p>Alta resistencia y durabilidad.</p>
-                        <p><strong>Precio: $18,000</strong></p>
-                        <button class="btn-comprar">Comprar</button>
-                    </div>
-                    <div class="card">
-                        <img src="img/12.png" alt="Rodamiento B">
-                        <h3>Rodamiento Rígido HeavyDuty</h3>
-                        <p>Ideal para maquinaria pesada.</p>
-                        <p><strong>Precio: $22,500</strong></p>
-                        <button class="btn-comprar">Comprar</button>
-                    </div>
-                    <div class="card">
-                        <img src="img/13.png" alt="Rodamiento C">
-                        <h3>Rodamiento Oscilante FlexPower</h3>
-                        <p>Máxima eficiencia energética.</p>
-                        <p><strong>Precio: $30,000</strong></p>
-                        <button class="btn-comprar">Comprar</button>
-                    </div>
-                    <div class="card">
-                        <img src="img/7.png" alt="Rodamiento D">
-                        <h3>Rodamiento de Bolas SuperGlide</h3>
-                        <p>Desempeño suave y silencioso.</p>
-                        <p><strong>Precio: $25,000</strong></p>
-                        <button class="btn-comprar">Comprar</button>
-                    </div>
-                    <div class="card">
-                        <img src="img/8.png" alt="Rodamiento E">
-                        <h3>Rodamiento de Agujas NeedlePro</h3>
-                        <p>Alta precisión para equipos delicados.</p>
-                        <p><strong>Precio: $40,000</strong></p>
-                        <button class="btn-comprar">Comprar</button>
-                    </div>
-                    <div class="card">
-                        <img src="img/9.png" alt="Rodamiento F">
-                        <h3>Rodamiento Cónico ConeMax</h3>
-                        <p>Perfecto para altas cargas radiales.</p>
-                        <p><strong>Precio: $35,000</strong></p>
-                        <button class="btn-comprar">Comprar</button>
-                    </div>
-                    <div class="card">
-                        <img src="img/10.png" alt="Rodamiento G">
-                        <h3>Rodamiento Esférico PowerBall</h3>
-                        <p>Ideal para soportar vibraciones.</p>
-                        <p><strong>Precio: $29,000</strong></p>
-                        <button class="btn-comprar">Comprar</button>
-                    </div>
-                    <div class="card">
-                        <img src="img/11.png" alt="Rodamiento H">
-                        <h3>Rodamiento de Rodillos MultiRoll</h3>
-                        <p>Resistencia para trabajo continuo.</p>
-                        <p><strong>Precio: $42,000</strong></p>
-                        <button class="btn-comprar">Comprar</button>
-                    </div>
-                </div>
+                <div id="contenedorProductos" class="productos"></div>
             </div>
+        </section>
+
+        <section id="carrito">
+            <h2>Carrito</h2>
+            <ul>
+            </ul>
+            <p>Total a pagar: $0</p>
+            <input id="botonBorrar" type="button" value="Borrar">
+            <input id="botonPagar" type="button" value="Ir a Pagar">
+            <p id="mensajeCarrito"></p>
+
         </section>
         
         <section id="comentarios">
             <h2>Comentarios de Clientes</h2>
-         
             <div class="comentarios-container">
                 <div class="comentarios">
                     <div class="comentario">
@@ -137,5 +90,7 @@
             <a href="https://www.facebook.com" target="_blank" class="icono"><i class="fab fa-facebook"></i></a>
         </div>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
